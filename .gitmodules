@@ -1,0 +1,3 @@
+[submodule "src/phone/resources/Uploaded/Logger"]
+	path = src/phone/resources/Uploaded/Logger
+	url = https://github.com/JPapaTangoCharlie/Jlogger
