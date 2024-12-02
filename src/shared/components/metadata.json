@@ -1,0 +1,48 @@
+{
+  "name": "AR_COE_Logger_Advanced",
+  "version": "1.0.0",
+  "requires": [
+    "w320dp"
+  ],
+  "experiences": [
+    {
+      "vumark": "",
+      "experienceType": "vumark",
+      "id": 1,
+      "index-keys": [],
+      "title": {
+        "en": "AR_COE_Logger"
+      },
+      "description": {
+        "en": ""
+      },
+      "requires": [],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": ""
+    }
+  ],
+  "accessType": "private",
+  "widgetsUsage": [
+    {
+      "timestamp": "2024-11-27T13:22:33.829Z",
+      "action": "LATEST_SAVE",
+      "usage": {
+        "twx-view": 2,
+        "twx-dt-view": 2,
+        "twx-dt-model": 1,
+        "twx-overlay": 2,
+        "twx-overlay-container": 10,
+        "twx-overlay-body": 2,
+        "twx-gridlayout": 2,
+        "twx-row": 2,
+        "twx-col": 8,
+        "twx-select": 1,
+        "twx-checkbox": 2,
+        "twx-button": 5
+      }
+    }
+  ],
+  "designedfor": []
+}

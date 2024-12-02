@@ -1,0 +1,68 @@
+[2024-11-26T17:06:00.035Z] debug: [twx-studio:upgrade:AR_COE_Logger] Begin upgrade of project
+[2024-11-26T17:06:00.036Z] info: [twx-studio:upgrade:AR_COE_Logger] Upgrading project
+[2024-11-26T17:06:00.103Z] debug: [twx-studio:upgrade:AR_COE_Logger] Remove all the src-scaffold files from src
+[2024-11-26T17:06:00.106Z] debug: [twx-studio:upgrade:AR_COE_Logger] Deleting settings.path
+[2024-11-26T17:06:00.106Z] debug: [twx-studio:upgrade:AR_COE_Logger] Deleting settings.studioPath
+[2024-11-26T17:06:00.107Z] debug: [twx-studio:upgrade:AR_COE_Logger] C:\Users\jhunt\Documents\VuforiaStudio\Projects\AR_COE_Logger\src\shared\components\Data.json
+[2024-11-26T17:06:00.107Z] debug: [twx-studio:upgrade:AR_COE_Logger] C:\Users\jhunt\Documents\VuforiaStudio\Projects\AR_COE_Logger\src\shared\components\Device.json
+[2024-11-26T17:06:00.108Z] debug: [twx-studio:upgrade:AR_COE_Logger] Unable to migrate application parameters; none exist in project's appConfig.json.
+[2024-11-26T17:06:00.108Z] debug: [twx-studio:upgrade:AR_COE_Logger] Migrate service bindings for view
+[2024-11-26T17:06:00.108Z] debug: [twx-studio:upgrade:AR_COE_Logger] Updating bindings in view: 
+[2024-11-26T17:06:00.109Z] debug: [twx-studio:upgrade:AR_COE_Logger] Updating bindings in the Home json, file contents: {"attributes":{"twx-widget":"","viewtype":"ar","is-widget-container":"true"},"children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:3D Container","is-widget-container":"true"},"name":"twx-dt-view","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:2D Overlay","is-widget-container":"true"},"name":"twx-overlay","children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Top Panel","position":"top","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:2D Body"},"name":"twx-overlay-body","children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Left Panel","position":"left","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Center Panel","position":"center","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Right Panel","position":"right","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]}]}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Bottom Panel","position":"bottom","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]}]}]}]},{"name":"twx-view-data"}],"name":"twx-view"}
+[2024-11-26T17:06:00.110Z] debug: [twx-studio:upgrade:AR_COE_Logger] Unable to update the metadata.json file, the file was not found.
+[2024-11-26T17:06:00.111Z] debug: [twx-studio:upgrade:AR_COE_Logger] Unable to update the metadata.json file, it was not found at C:\Users\jhunt\Documents\VuforiaStudio\Projects\AR_COE_Logger\src\shared\components\metadata.json
+[2024-11-26T17:06:00.113Z] debug: [twx-studio:upgrade:AR_COE_Logger] Contents of view before upgrading
+[2024-11-26T17:06:00.113Z] debug: [twx-studio:upgrade:AR_COE_Logger] Unable to update the metadata.json file, it was not found at C:\Users\jhunt\Documents\VuforiaStudio\Projects\AR_COE_Logger\src\shared\components\metadata.json
+[2024-11-26T17:06:00.114Z] warn: [twx-studio:upgrade:AR_COE_Logger] Wasn't able to migrate the data in
+[2024-11-26T17:06:00.114Z] debug: [twx-studio:upgrade:AR_COE_Logger] Cached device dimensions are obsolete and will be deleted:
+[2024-11-26T17:06:00.117Z] debug: [twx-studio:upgrade:AR_COE_Logger] File not found during migration of handler to handler-path C:\Users\jhunt\Documents\VuforiaStudio\Projects\AR_COE_Logger\src\shared\components\Data.json
+[2024-11-26T17:06:00.118Z] debug: [twx-studio:upgrade:AR_COE_Logger] Moving .glb resources for project: AR_COE_Logger
+[2024-11-26T17:06:00.118Z] debug: [twx-studio:upgrade:AR_COE_Logger] No model target found!
+[2024-11-26T17:06:00.119Z] debug: [twx-studio:upgrade:AR_COE_Logger] starting mt upgrade
+[2024-11-26T17:06:00.119Z] debug: [twx-studio:upgrade:AR_COE_Logger] finishing mt upgrade
+[2024-11-26T17:06:00.120Z] debug: [twx-studio:upgrade:AR_COE_Logger] starting mt size correction
+[2024-11-26T17:06:00.120Z] debug: [twx-studio:upgrade:AR_COE_Logger] finishing mt scale correction
+[2024-11-26T17:06:00.120Z] debug: [twx-studio:upgrade:AR_COE_Logger] starting empty data binding removal
+[2024-11-26T17:06:00.121Z] debug: [twx-studio:upgrade:AR_COE_Logger] finishing empty data binding removal
+[2024-11-26T17:06:00.121Z] debug: [twx-studio:upgrade:AR_COE_Logger] starting mt size correction
+[2024-11-26T17:06:00.121Z] debug: [twx-studio:upgrade:AR_COE_Logger] finishing mt scale correction
+[2024-11-26T17:06:00.121Z] debug: [twx-studio:upgrade:AR_COE_Logger] Make sure there are not any stale files lying around
+[2024-11-26T17:06:00.124Z] debug: [twx-studio:upgrade:AR_COE_Logger] Create .gitignore for project dir
+[2024-11-26T17:06:00.125Z] debug: [twx-studio:upgrade:AR_COE_Logger] Copying /src/**/* to project, overwrite=false
+[2024-11-26T17:06:00.126Z] debug: [twx-studio:upgrade:AR_COE_Logger] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2024-11-26T17:06:00.195Z] debug: [twx-studio:upgrade:AR_COE_Logger] Copy of project files complete
+[2024-11-26T17:06:00.195Z] debug: [twx-studio:upgrade:AR_COE_Logger] Updating version to 
+[2024-11-26T17:06:00.195Z] debug: [twx-studio:upgrade:AR_COE_Logger] onupgrade sucessful, now build the project
+[2024-11-26T17:06:00.195Z] debug: [twx-studio:upgrade:AR_COE_Logger] BEGIN buildApp
+[2024-11-26T17:06:00.195Z] debug: [twx-studio:upgrade:AR_COE_Logger] write settings
+[2024-11-26T17:06:00.196Z] debug: [twx-studio:upgrade:AR_COE_Logger] copy runtime extensions
+[2024-11-26T17:06:01.036Z] debug: [twx-studio:upgrade:AR_COE_Logger] packageThemeSet
+[2024-11-26T17:06:03.615Z] debug: [twx-studio:upgrade:AR_COE_Logger] onBuild
+[2024-11-26T17:06:03.616Z] info: [twx-studio:upgrade:AR_COE_Logger] Building ves-ar-extension app:
+[2024-11-26T17:06:04.401Z] debug: [twx-studio:upgrade:AR_COE_Logger] pathDir
+[2024-11-26T17:06:05.422Z] debug: [twx-studio:upgrade:AR_COE_Logger] END buildApp
+[2024-11-26T17:06:05.422Z] debug: [twx-studio:upgrade:AR_COE_Logger] Build succeeded.
+
+2024-11-26T19:01:47.544Z: Project "AR_COE_Logger" saved as new project "AR_COE_Logger_Advanced"[2024-11-26T20:02:36.672Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Begin upgrade of project
+[2024-11-26T20:02:36.673Z] info: [twx-studio:upgrade:AR_COE_Logger_Advanced] Upgrading project
+[2024-11-26T20:02:36.675Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] starting mt size correction
+[2024-11-26T20:02:36.675Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] finishing mt scale correction
+[2024-11-26T20:02:36.676Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] starting mt size correction
+[2024-11-26T20:02:36.676Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] finishing mt scale correction
+[2024-11-26T20:02:36.676Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Make sure there are not any stale files lying around
+[2024-11-26T20:02:36.678Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Removing 
+[2024-11-26T20:02:36.700Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Create .gitignore for project dir
+[2024-11-26T20:02:36.702Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Copying /src/**/* to project, overwrite=false
+[2024-11-26T20:02:36.703Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2024-11-26T20:02:37.344Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Copy of project files complete
+[2024-11-26T20:02:37.344Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Updating version to 
+[2024-11-26T20:02:37.345Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] onupgrade sucessful, now build the project
+[2024-11-26T20:02:37.345Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] BEGIN buildApp
+[2024-11-26T20:02:37.345Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] write settings
+[2024-11-26T20:02:37.346Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] copy runtime extensions
+[2024-11-26T20:02:38.467Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] packageThemeSet
+[2024-11-26T20:02:40.601Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] onBuild
+[2024-11-26T20:02:40.601Z] info: [twx-studio:upgrade:AR_COE_Logger_Advanced] Building ves-ar-extension app:
+[2024-11-26T20:02:40.603Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] pathDir
+[2024-11-26T20:02:40.978Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] END buildApp
+[2024-11-26T20:02:40.978Z] debug: [twx-studio:upgrade:AR_COE_Logger_Advanced] Build succeeded.

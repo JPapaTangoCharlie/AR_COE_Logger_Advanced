@@ -1,0 +1,61 @@
+{
+  "name": "AR_COE_Logger_Advanced",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "AR_COE_Logger_Advanced",
+  "thingworxServer": "https://k1fq8rx9.studio-trial.thingworx.io",
+  "viewTemplateFileName": "home-ar.json",
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "View2",
+          "fileName": "View2",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "View2"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "device": {
+    "name": "ipad",
+    "width": "1024",
+    "height": "768"
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light",
+  "version": "9.23.12.0",
+  "initializingFrom": "import"
+}
