@@ -39,7 +39,7 @@ function readFiles(src) {
 }
 
 if (!$rootScope.logger) {
-  readFiles("Uploaded/jlogger.js")
+  readFiles("Uploaded/Logger/jlogger.js")
     .then(function () {      
       $rootScope.logger = new Jlogger("AR_COE_Logger", "GLOBAL");
       let debug = JSON.parse($scope.app.params.jloggerdebug);
